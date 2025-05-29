@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageButton
+        android:id="@+id/popup_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:scaleType="center"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <TextView
+        android:id="@+id/popup_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/londrina_solid"
+        android:gravity="center"
+        android:letterSpacing="0.35"
+        android:text="GOAL"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/popup_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="• What the character wants to achieve."
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/popup_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Goal Type: Retrieve"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/popup_text3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example: King Arthur wants to find the Holy Grail."
+        android:textStyle="italic" />
+
+</LinearLayout>
